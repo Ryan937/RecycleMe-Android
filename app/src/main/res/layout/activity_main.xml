@@ -12,6 +12,7 @@
         android:layout_height="630dp"
         android:adjustViewBounds="true"
         android:background="@drawable/background"
+        android:contentDescription="@null"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="0dp" />
@@ -21,6 +22,7 @@
         android:layout_width="360dp"
         android:layout_height="630dp"
         android:alpha="0.8"
+        android:contentDescription="@null"
         android:background="@android:color/black"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
@@ -34,7 +36,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="284dp"
         android:fontFamily="@font/raleway_thin"
-        android:text="RecycleMe"
+        android:text="@string/app_name"
         android:textColor="@android:color/white"
         android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -89,6 +91,7 @@
         android:layout_marginTop="124dp"
         android:background="@drawable/back"
         android:text="TextView"
+        android:contentDescription="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/blackBG" />
@@ -101,4 +104,5 @@
         tools:layout_editor_absoluteX="138dp"
         tools:layout_editor_absoluteY="172dp"
         android:onClick="onMap"/>
+
 </LinearLayout>
