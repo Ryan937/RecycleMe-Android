@@ -49,8 +49,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
         setContentView(R.layout.activity_map);
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
-        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-                .findFragmentById(R.id.map);
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
 
         if (mGoogleApiClient == null) {
@@ -85,8 +84,6 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
         latLngs.add(new LatLng(48.448636, -123.369619));
         latLngs.add(new LatLng(48.480889, -123.388370));
         latLngs.add(new LatLng(48.456512, -123.442265));
-
-
     }
 
     @Override
